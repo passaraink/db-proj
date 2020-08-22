@@ -1,0 +1,23 @@
+Overview
+1. Authentication (Login/Logout/Registration)
+2. Authorization (Role)
+
+Restaurant
+1. Restaurant Information Management
+2. Setting (Working Hours/Day)
+3. Menu Management
+4. Receive/Reject/Cancel Order
+5. Send Food (Call Driver Role)
+6. View Report
+
+Driver
+1. View Waiting Jobs
+2. Accept Jobs
+3. View Report
+
+End User
+1. Information Management
+2. View/Search Restaurant
+3. Select Menu / Order Food
+4. Receive Delivery
+5. View History

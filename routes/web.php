@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::any('/test', function(){
+    return \App\Models\User::all();
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
