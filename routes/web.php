@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::any('/test', function(){
-    return \App\Models\User::all();
+    return \App\User::all();
 });
 
 Auth::routes();
